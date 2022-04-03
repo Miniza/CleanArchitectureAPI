@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using OnlineVets.Application.Commands;
+using OnlineVets.Application.Queries;
 using OnlineVets.Application.Responses;
 
 namespace OnlineVets.API.Controllers
@@ -15,6 +16,20 @@ namespace OnlineVets.API.Controllers
         public PetController(IMediator mediator)
         {
             this.mediator = mediator;
+        }
+
+        [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public async Task<IActionResult> GetAllPets()
+        {
+            return Ok(await mediator.Send(new GetAllpetQuery()));
+        }
+
+        [HttpGet("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public async Task<IActionResult> GetPetById(int id)
+        {
+            return Ok(await mediator.Send(new GetpetByIdQuery(id)));
         }
 
         [HttpPost]

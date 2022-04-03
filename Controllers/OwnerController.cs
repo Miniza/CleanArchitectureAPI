@@ -24,7 +24,14 @@ namespace OnlineVets.API.Controllers
         {
             return await mediator.Send(new GetAllOwnerQuery());
         }
-  
+
+        [HttpGet("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public async Task<Owner> GetOwnerById(int id)
+        {
+            return await mediator.Send(new GetOwnerByIdQuery(id));
+        }
+
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<IActionResult> CreateOwner([FromForm] CreateOwnerCommand command)
@@ -32,6 +39,19 @@ namespace OnlineVets.API.Controllers
             return Ok(await mediator.Send(command));
         }
 
+        [HttpGet("Owner/{search}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public async Task<List<Owner>> Search(string search)
+        {
+            return await mediator.Send(new GetOwnerByLastOrFirstNameQuery(search));
+        }
+
+        [HttpDelete("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public async Task<Owner> DeleteOwner(int id)
+        {
+            return await mediator.Send(new DeleteOwnerQuery(id));
+        }
 
     }
 }
