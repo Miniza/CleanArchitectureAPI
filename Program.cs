@@ -19,8 +19,7 @@ options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoop
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
-builder.Services.AddMediatR(typeof(CreateOwnerHandler).GetTypeInfo().Assembly);
-builder.Services.AddMediatR(typeof(CreatePetHandler).GetTypeInfo().Assembly);
+builder.Services.AddMediatR(typeof(GetPetListHandler).GetTypeInfo().Assembly);
 builder.Services.AddTransient(typeof(IRepository< >),typeof(Repository< >));
 builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 

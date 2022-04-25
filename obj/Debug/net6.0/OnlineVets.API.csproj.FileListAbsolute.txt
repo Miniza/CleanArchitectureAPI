@@ -76,3 +76,4 @@ C:\Users\minen\source\repos\OnlineVetsCleanArchitecture\bin\Debug\net6.0\Microso
 C:\Users\minen\source\repos\OnlineVetsCleanArchitecture\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\minen\source\repos\OnlineVetsCleanArchitecture\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 C:\Users\minen\source\repos\OnlineVetsCleanArchitecture\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\minen\source\repos\OnlineVetsCleanArchitecture\bin\Debug\net6.0\BCrypt.Net-Next.dll

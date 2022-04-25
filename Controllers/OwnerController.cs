@@ -48,10 +48,9 @@ namespace OnlineVets.API.Controllers
 
         [HttpDelete("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        public async Task<Owner> DeleteOwner(int id)
+        public async Task<ActionResult<Owner>> DeleteOwner(int id)
         {
-            return await mediator.Send(new DeleteOwnerQuery(id));
+            return Ok(await mediator.Send(new DeleteOwnerQuery(id)));
         }
-
     }
 }

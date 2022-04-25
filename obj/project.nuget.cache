@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ulGePOqV75G+yhn+GEViqQObaf26MtMTXOWqjVlZozhqMq1kOZOPC7orDOCZWz2XozmQv/Gk1sX4Mn9fYPfPeQ==",
+  "dgSpecHash": "FIBcKer/dil81QrQBQmL1JK64pCBX5JiM0HLFXgKdhEy3C6PXGIxvn+HK/Hhpdqh7kY8adLRbXSMhngvKXJELg==",
   "success": true,
   "projectFilePath": "C:\\Users\\minen\\source\\repos\\OnlineVetsCleanArchitecture\\OnlineVets.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\minen\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\minen\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\minen\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\minen\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
     "C:\\Users\\minen\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\minen\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",

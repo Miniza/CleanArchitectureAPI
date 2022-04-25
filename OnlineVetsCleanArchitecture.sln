@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineVets.API", "OnlineVets.API.csproj", "{818FAA14-6067-435D-B50A-9F4BD6C666C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineVets.API", "OnlineVets.API.csproj", "{818FAA14-6067-435D-B50A-9F4BD6C666C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineVets.Application", "..\OnlineVets.Application\OnlineVets.Application.csproj", "{4D1E788E-15C7-4BAF-B729-0E2C602CC80B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineVets.Application", "..\OnlineVets.Application\OnlineVets.Application.csproj", "{4D1E788E-15C7-4BAF-B729-0E2C602CC80B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineVets.Core", "..\OnlineVets.Core\OnlineVets.Core.csproj", "{A3E58162-ABF4-4434-8688-891F8F31C0AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineVets.Core", "..\OnlineVets.Core\OnlineVets.Core.csproj", "{A3E58162-ABF4-4434-8688-891F8F31C0AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineVets.Infrastructure", "..\OnlineVets.Infrastructure\OnlineVets.Infrastructure.csproj", "{750169CE-7815-4235-882F-6953B92B7D7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineVets.Infrastructure", "..\OnlineVets.Infrastructure\OnlineVets.Infrastructure.csproj", "{750169CE-7815-4235-882F-6953B92B7D7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
